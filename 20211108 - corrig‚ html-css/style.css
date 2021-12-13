@@ -1,0 +1,120 @@
+/*
+sélecteur {
+	propriété : valeur ;
+}
+*/
+
+body /* Propriétés et valeur du Corp de la page*/
+	{
+	background-color: white; /* couleur du fond de la page*/
+	font-family: Tahoma; /* Nom de police*/
+ }
+#page /* Propriétés et valeur de la div page (conteneur)*/
+	{ 
+	width: 960px; /* largeur d'un élément suivi d'une valeur en pixel*/
+	margin: auto; /* marge d'un élément*/
+}
+header{
+	background-color:black;/* couleur du fond du header*/
+	}
+
+nav /* Propriétés et valeur du Menu de navigation horizontale*/
+{
+	font-size: 19px; /*Taille du texte*/
+	font-family: Arial, Helvetica, sans-serif; /*Nom de police*/
+	color: black; /* Couleur du texte*/
+	width: 960px; /*largeur du nav */
+	height: 40px; /*hauteur de l'élément*/
+	background-color: #07AFDD; /*couleur de fond de l'élément*/
+	margin-top: -24px; /* Marge en haut de l'élément*/
+	/*text-align: center;*//* Alignement du text - ici au centre */
+}
+nav li
+{
+	display: inline-block; /* permet d'indiquer explicitement le mode de rendu d'un élément , inline-block permet de contenir des block et du texte tres pratique pour un menu horizontal */
+	margin-right: 25px; /* Marge à droite */
+	margin-top: 10px; /* Marge en haut*/
+	
+}
+.slogan {
+	position:absolute; /* Positionnement (le positionnement se fera par rapport au coin haut gauche de la page HTML ou par rapport au premier parent trouvé qui n'est pas static.) */
+    left: 600px; /*emplacement de l'élément à gauche*/
+    top: 31px; /*emplacement de l'élément en haut*/
+    font-family: Tahoma; /*Nom de police*/
+    font-size: 30px; /*taille de la police*/
+    color:#FFFFFF; /*color white */
+}
+
+
+nav li a{
+	text-decoration: none; /*je supprime le soulignement du lien*/
+	color: #FFFFFF; /* couleur de lien : blanc*/
+}
+nav li a:hover{
+	 text-decoration:underline;
+	color:purple;
+}
+
+
+
+
+article
+{
+	display:table-cell; /**/
+	width:auto; /**/
+	background-color: white; /**/
+	border: 2px solid #07AFDD; /*border : epaisseur, style de la bordure, couleur de la bordure*/
+	padding:5px 15px;
+}
+
+
+
+aside
+{
+	display:table-cell; /**/
+	width: 250px; /**/
+	height: 100%; /**/
+	background-color: #ffffff; /**/
+	text-align:center; /**/
+	border: 2px solid #07AFDD; /**/
+	
+}
+aside li{
+	list-style-type:none  ;
+	text-align:left;
+}
+
+footer
+{
+	float: left; /* float permet de spécifier si l'affichage des éléments suivant sont adjacents.*/
+	height: 50px; /**/
+	width: 960px; /**/
+	background-color: #07AFDD; /**/
+	color: white; /**/
+	text-align:center; /**/
+	line-height:30px; /**/
+	
+}
+
+
+p{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.asidetxt {
+	color: red;
+
+}
+
+footer a{
+	color:white;
+	text-decoration:none;
+}
+footer a:hover{
+	color:white;
+	text-decoration:underline;
+}
+
+
+

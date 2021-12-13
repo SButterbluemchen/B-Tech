@@ -1,0 +1,97 @@
+
+/*.square {
+  background: orange;
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+}
+
+.circle {
+  background: skyblue;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.rectangle {
+  background: brown;
+  height: 250px;
+  width: 400px;
+  margin: 30px;
+}
+
+.oval {
+  background: yellow;
+  height: 250px;
+  width: 400px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-bottom: 200px solid lightseagreen;
+  border-right: 200px solid transparent;
+  border-left: 200px solid transparent;
+  margin: 30px;
+}
+
+.parallelogram {
+  background: pink;
+  height: 250px;
+  width: 400px;
+  margin: 30px;
+  margin-left: 80px;
+  transform: skew(-30deg);
+}*/
+
+#shapecontainer {
+  margin-left: 50px;
+}
+
+#square1 {
+  background: darkblue;
+  width: 250px;
+  height: 250px;
+}
+
+#circle1 {
+  background: goldenrod;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#square2 {
+  background: darkblue;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 110px;
+  top: 55px;
+}
+
+#circle2 {
+  background: goldenrod;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#triangle {
+  width: 0px;
+  height: 0px;
+  border-bottom: 80px solid white;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}

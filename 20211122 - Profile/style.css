@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient( black, lightgrey);
+}
+
+img {
+ height: 250px;
+ width: 250px;
+}
+
+.profileimg1, .profileimg2, .profileimg3, .profileimg4, .profileimg5, .profileimg6, .profileimg7, .profileimg8 {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 5px groove burlywood;
+  box-shadow: 0 0 5px 5px grey;
+  overflow: hidden;
+  transition: all 1s linear 0.1s; /*sur quoi agir (background, image etc. / durée / style de l'effet / start */
+}
+
+.profileimg1:hover {
+  transform: scale(120%);
+  transition: all 0.3s linear 0.1s; 
+}
+
+.profileimg2 img {
+  transition: all 2s linear 0.1s; /*transition vers début)*/
+}
+
+.profileimg2 img:hover {
+  transform: scale(120%);
+  transition: all 0.3s linear 0.1s; 
+}
+
+.profileimg3:hover {
+  transform: scale(80%);
+  transition: all 0.3s linear 0.1s; 
+}
+
+.profileimg4 img {
+  transform: scale(120%);
+  transition: all 2s linear 0.1s; /*transition vers début)*/
+}
+
+.profileimg4 img:hover {
+  transform: scale(100%);
+  transition: all 0.3s linear 0.1s; /*transition vers effet*/
+}
+
+.profileimg5:hover {
+  transform: rotate(360deg);
+}
+
+.profileimg6 img {
+  transition: all 1s linear 0.1s;
+}
+
+.profileimg6 img:hover {
+  transform: rotate(-360deg);
+  transition: all 1s linear 0.1s;
+}
+
+.profileimg7:hover {
+  transform: rotateX(180deg);
+  transition: all 1s linear 0.1s;
+}
+
+/*retour de 8 vers début*/
+.profileimg8 img {
+  transition: all 1s linear 0.1s;
+}
+
+/*début vers effet*/
+.profileimg8 img:hover {
+  transform: rotateY(180deg);
+  transition: all 1s linear 0.1s;
+}

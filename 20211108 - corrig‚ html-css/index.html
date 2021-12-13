@@ -1,0 +1,110 @@
+
+<!DOCTYPE html> <!--Un Doctype est une ligne de code servant a indiquer le Type de votre document. -->
+<html>
+ <head><!-- En tête de la page -->
+	<title>Titre de la page</title> <!-- Titre de la page  -->
+        
+		<meta charset="utf-8"> <!-- Indique la nature du document et le jeux de caractères utilisés-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+		<!-- Balise meta  -->
+		<meta name="description" content="Contient la description de votre page. Bien qu’elle ne soit pas affiché, elle sera affichée dans les recherches Google, juste sous le titre de votre page. Ne pas dépasser les 200 caractères .">
+		<meta name="keywords" content="mots-clés ou expressions-clés de votre page. Ils devront être séparé d’une virgule. Cette balise à une importance très relative. Une liste de 15 à 20 mots sera le maximum conseillé."
+		
+		<!--  Relier une feuille CSS externe  -->
+		<link rel='stylesheet' href='style.css' type='text/css' /> 
+		
+				
+		<!--exemple de CSS dans la page même
+		<style>
+			sélecteur {
+				propriété : valeur ;
+			}
+			p{
+				color:red;
+			}
+			
+		</style>
+		-->
+		
+		
+ </head>
+ <body><!--Corps de la page-->
+ 
+	<div id="page"><!-- définition de bloc ou zone géographique - l'attibut id permettra d'attribuer en css les propriété et valeur du selecteur "page" -->
+    
+        <header><!-- Entête de la zone considérée -->
+				<img src="img/logo-header.png" alt="logo de mon site" title="mon logo"/>
+				<h1 class="slogan">Le slogan de votre site</h1>
+    			<nav> <!-- Nav. principale de la page ou du site -->
+					<ul> <!-- liste à puce -->
+						<li><a href="#">Accueil</a></li> <!-- li : élement d'une liste-->
+						<li><a href="#">Menu1</a></li><!-- lien hypertexte -->
+						<li><a href="#">Menu2</a></li>
+						<li><a href="#">Menu3</a></li>
+					</ul>
+        
+				</nav>
+		</header>
+		
+        <aside><!-- Les à-cotés de la page - zone secondaire non liée au contenu principal  -->
+				<h4>Le HTML 5 et Le CSS 3</h4>
+				<img src="img/html5.png" alt="le html5" title="html5"/>
+				<p class="asidetxt">Le HTML5 est un langage de base pour la création de site internet, il sert à structurer vote document.</p> <!-- la balise <p> est la balise paragraphe -->
+				<img src="img/css3.png" alt="le css3" title="css3"/>
+				<p class="asidetxt">Les feuilles de styles sont un langage qui permet de gérer la présentation d'une ou plusieurs page Web.</p> <!-- la balise <p> est la balise paragraphe -->
+				
+		</aside>
+        
+        <article><!-- Contenu textuel de la page -->
+			<section> <!-- En tête de l'article-->
+                         <h1>Titre de l’article: h1</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                      Nullam sit amet  orci ante, sed sollicitudin nis
+                                 </p>
+            </section>
+
+            <section> <!-- section de l'article-->
+                          <h2>Titre de l'article: h2</h2>
+                                 <p>Sed ultricies tortor nec nunc aliquam hendrerit.
+                                      Donec tempor scelerisque bibendum. Fusce accumsan convallis fringilla.
+                                      Cum sociis natoque penatibus et magnis dis parturient montes,
+                                      nascetur ridiculus mus.   
+                                 </p>
+<!-- BALISE VIDEO -->		<video width="400" height="222" controls="controls">
+								  <source src="video/lehtml5.mp4" type="video/mp4" />
+								  <source src="video/lehtml5.webm" type="video/webm" />
+								  <source src="video/lehtml5.ogv" type="video/ogg" />
+								  Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
+							</video>
+            </section>
+			 <section> <!-- section de l'article-->
+                          <h2>Titre de l'article: h3</h2>
+                                 <p>Sed ultricies tortor nec nunc aliquam hendrerit.
+                                      Donec tempor scelerisque bibendum. Fusce accumsan convallis fringilla.
+                                      Cum sociis natoque penatibus et magnis dis parturient montes,
+                                      nascetur ridiculus mus.   
+                                 </p>
+<!-- BALISE AUDIO -->		<audio controls="controls">
+								  <source src="audio/html5.ogg" type="audio/ogg" />
+								  <source src="audio/html5.mp3" type="audio/mp3" />
+								  Votre navigateur ne supporte pas la balise AUDIO.
+							</audio>
+							
+							 
+            </section>
+
+            
+		
+		</article>
+		
+		
+		
+        <footer><!-- Pied-de-page de la page ou du site -->
+				<p><a href="#">Accueil</a> - <a href="#">Mentions Légales</a> - <a href="#">F.A.Q</a> - <a href="#">Contact</a></p>
+		</footer>
+        
+    </div>
+ 
+ </body>
+</html>

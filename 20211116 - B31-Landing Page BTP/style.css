@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+}
+
+nav {
+    width: 100%;
+    text-align: left;
+    background-color: #D9911A; 
+    border-bottom: 7px solid #ADF6CA;
+}
+
+i {
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav li a {
+    color:white;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+nav li a:hover {
+    color: #ADF6CA;
+}
+
+button {
+    background: #ADF6CA;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    color: black;
+    font-size: 18pt;
+    margin-top: 30px;
+}
+
+button:hover {
+    transform: scale(105%);
+    background: rgba(255, 255, 255);
+    transition-duration: 0.8s;
+}
+
+#home {
+    width: 100%;
+    height: 800px;
+    background: url(img/parentsroom.jpeg) no-repeat 80% center fixed;
+}
+
+h1 {
+    width: 70%;
+    color: #D9911A;
+    font-size: 60pt;
+    font-family: 'Fugaz One', cursive;;
+    text-shadow: 1px 1px black;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 85pt;
+}
+
+h2 {
+    width: 100%;
+    color: white;
+    font-size: 28pt;
+    line-height: 150px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+h3 {
+  padding-top: 5px;
+}
+
+#works {
+    width: 100%;
+    height: 800px;
+    background: url(img/babyroom.jpeg) no-repeat 80% center fixed;
+}
+
+#contact {
+    width: 100%;
+    height: 800px;
+    background: url(img/wallpaperfeathers.jpeg) no-repeat 80% center fixed;
+}
+
+.textblock {
+  width: 60%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  background:rgba(255, 255, 255, 8);
+  border-radius: 30px;
+}
+
+.textblock img {
+  width: 200px;
+}
+
+.textblock li {
+  text-align: left;
+  line-height: 40px;
+  width: 90%;
+  padding-left: 50px;
+  padding-left: 0px;
+}
+
+.underlist li {
+  line-height: 25px;
+}
+
+.textblock ol {
+  padding-left: 120px;
+  padding-bottom: 15px;
+}
+
+ol {
+  width: 100%;
+}
+
+.textblock .underlist {
+  font-size: 10pt;
+  font-style: italic;
+  line-height: 10px;
+  width: 70%;
+  padding-left: 40px;
+}
+
+.tripleblock {
+  width: 70%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.tripleblock li {
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  background:rgba(255, 255, 255, 8);
+  border-radius: 30px;
+}
+
+.tripleblock img {
+  padding: 10px;
+  width: 100px;
+}
+
+.tripleblock p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.social {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social li {
+  display: inline-block;
+  width: 70px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
